@@ -12,9 +12,12 @@ public class ArrayRataNilai10 {
             System.out.print("Masukkan nilai mahasiswa ke-"+ (i+1)+" : ");
             nilaiMhs[i] = sc.nextInt();
         }
+
         for (int i = 0; i <nilaiMhs.length; i++) {
             total += nilaiMhs[i];
         }
+
+        //Output
         rata2 = total/nilaiMhs.length;
         System.out.println("Rata-rata nilai = "+rata2);
     }
